@@ -17,7 +17,7 @@ class AppScreenState extends State<AppScreen> {
   final List<Widget> _children = [
     HomeScreen(),
     Text('About SASTRA'),
-    Text('DAFAQ and MAVERICK'),
+    Text('Chaitanya VSH'),
   ];
 
   Widget build(context) {
@@ -26,7 +26,7 @@ class AppScreenState extends State<AppScreen> {
       //backgroundColor: Colors.tealAccent,
 
       appBar: AppBar(
-        title: Text("LoCaL GeNiE"),
+        title: Text("Canopy Food"),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.format_list_bulleted),
