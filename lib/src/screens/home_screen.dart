@@ -21,12 +21,9 @@ class HomeScreenState extends State<HomeScreen>
       child: Column(
         children: <Widget>[
 
-          Padding(
-            padding: EdgeInsets.fromLTRB(0.0, 45.0, 0.0, 0.0),
-            child: Image.asset('Assests/sastra.png',
-                width: 800.0,
-                height: 250.0,),
-            ),
+          Image.asset('Assests/sastra.png',
+          width: 800.0,
+          height: 250.0,),
 
           Container(
             child: Row(
