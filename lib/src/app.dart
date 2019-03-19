@@ -26,7 +26,7 @@ class AppScreenState extends State<AppScreen> {
       //backgroundColor: Colors.tealAccent,
 
       appBar: AppBar(
-        title: Text("Canopy Food"),
+        title: Text("Canopy fOOd"),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.format_list_bulleted),
