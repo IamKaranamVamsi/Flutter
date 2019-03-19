@@ -21,7 +21,7 @@ class LoginScreenState extends State<LoginScreen> {
         //backgroundColor: Colors.tealAccent,
 
         appBar: AppBar(
-          title: Text("LoCaL GeNiE"),
+          title: Text("Canopy fOOd"),
         ),
 
         body: Container(
@@ -39,7 +39,7 @@ class LoginScreenState extends State<LoginScreen> {
                       Container(
                         child: Row(
                           children: <Widget>[
-                            Text("                "),
+                            Text("                         "),
                             submitField(),
                             Text("      "),
                             googleField(),

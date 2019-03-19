@@ -22,7 +22,7 @@ class RegisterScreenState extends State<RegisterScreen> {
         //backgroundColor: Colors.tealAccent,
 
         appBar: AppBar(
-          title: Text("LoCaL GeNiE"),
+          title: Text("Canopy fOOd"),
         ),
 
         body: Container(
