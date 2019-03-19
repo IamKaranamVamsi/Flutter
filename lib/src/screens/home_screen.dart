@@ -21,14 +21,16 @@ class HomeScreenState extends State<HomeScreen>
       child: Column(
         children: <Widget>[
 
-          Image.asset('Assests/sastra.png',
-          width: 800.0,
-          height: 250.0,),
+         /* Image.asset('Assests/canopy.jpg',
+          width: 8.0,
+          height: 250.0,),*/
+         Text("\n"),
+         Image.network("https://dcassetcdn.com/design_img/1015366/434253/434253_5607525_1015366_thumbnail.jpg"),
 
           Container(
             child: Row(
               children: <Widget>[
-                Text("                 "),
+                Text("                         "),
                 loginField(),
                 Text("       "),
                 registerField(),
